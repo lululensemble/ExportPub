@@ -14,9 +14,8 @@ roles: null
 abstract: null
 iconUrl: ''
 units:
-- learn-wwl.sfa.null.ref-zero-repos
-- learn-wwl.sfa.null.ref-single-repo
 - learn-wwl.sfa.null.topic-1
+- learn-wwl.sfa.null.topic-2
 title: null
 levels: null
 products: null
