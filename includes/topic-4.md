@@ -24,7 +24,7 @@ SOME TEXT IN THE MIDDLE
 
 # Metadata and Markdown Template #
 
-This docs.ms template contains examples of markdown syntax, as well as guidance on setting the metadata. It is available in the root directory of each EM Pilot repository (e.g. ~/Azure-RMSDocs-pr /template.md) and is meant to be read as a markdown file, although you can refer to [the published version][] to see how the markdown examples rendeer.
+This docs.ms template contains examples of markdown syntax, as well as guidance on setting the metadata. It is available in the root directory of each EM Pilot repository (e.g. ~/Azure-RMSDocs-pr /template.md) and is meant to be read as a markdown file, although you can refer to the published version to see how the markdown examples rendeer.
 
 When creating a markdown file you shluld copy the template to a new file, fill out the metadata as specified below, set the H1 heading above to the title of the article, and delete the content.
 
@@ -224,7 +224,6 @@ The drought had lasted now for ten million years, and the reign of the terrible 
 
 [Previous]: /content/microsoft-learning/course-1/module-1/lesson-1/reference-to-cf.html
 [wit-walk-cert2.gif]: /content/dam/lessons/IntuneDocs/intune/media/wit-walk-cert2.gif
-[the published version]: https://stage.docs.microsoft.com/en-us/rights-management/template
 [OPS metadata cheatsheet]: https://ppe.msdn.microsoft.com/en-us/ce-csi-docs/ops/ops-onboarding/managing-content/content-meta-data
 [here]: https://microsoft.sharepoint.com/teams/STBCSI/Insights/_layouts/15/WopiFrame.aspx?sourcedoc=%7b7A321BF1-0611-4184-84DA-A0E964C435FA%7d&file=WEDCS_MasterList_CSIValues.xlsx&action=default
 [Baseline markdown syntax]: https://daringfireball.net/projects/markdown/syntax
