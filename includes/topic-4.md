@@ -4,6 +4,8 @@ Course 1 / Module 1 / Lesson 1 / Topic 4
 
 [Previous][]
 
+[Next][]
+
 # An h1 header #
 
 Paragraphs are separated by a blank line.
@@ -361,6 +363,7 @@ The drought had lasted now for ten million years, and the reign of the terrible 
 
 
 [Previous]: /content/microsoft-learning/course-1/module-1/lesson-1/reference-to-cf.html
+[Next]: /content/microsoft-learning/course-1/module-2/lesson-1/topic-4.html
 [section heading in the current doc]: /content/dam/lessons/private-collab/github-pri/#an-h2-header
 [example image]: /content/dam/lessons/private-collab/github-pri/funny-perfectly-timed-cat-photo-50__605.jpg
 [I_m a relative reference to a repository file]: /content/dam/lessons/private-collab/github-pri/secondary.md
