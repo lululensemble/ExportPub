@@ -1,134 +1,150 @@
 Topic 1
 
-Course 1 / Module 1 / Lesson 2 / Topic 1
+Course 1 / Module 1 / Lesson 1 / Topic 1
 
-[Previous][]
+# An h1 header #
 
-[Next][]
+Paragraphs are separated by a blank line.
+
+2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists look like:
+
+ *  this one
+ *  that one
+ *  the other one
+
+Note that --- not considering the asterisk --- the actual text content starts at 4-columns in.
+
+Block quotes are written like so.
+
+They can span multiple paragraphs, if you like.
+
+Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all in chapters 12--14"). Three dots ... will be converted to an ellipsis. Unicode is supported. ☺
+
+## An h2 header ##
+
+Here's a numbered list:
+
+1.  first item
+2.  second item
+3.  third item
+
+Note again how the actual text starts at 4 columns in (4 characters from the left side). Here's a code sample:
+
+``````````
+# Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+``````````
+
+As you probably guessed, indented 4 spaces. By the way, instead of indenting the block, you can use delimited blocks, if you like:
+
+``````````
+define foobar() {
+    print "Welcome to flavor country!";
+}
+``````````
+
+(which makes copying & pasting easier). You can optionally mark the delimited block for Pandoc to syntax highlight it:
+
+``````````
+import time
+# Quick, count to ten!
+for i in range(10):
+    # (but not *too* quick)
+    time.sleep(0.5)
+    print(i)
+``````````
+
+### An h3 header ###
+
+Now a nested list:
+
+1.  
+
+First, get these ingredients:
+
+ *  carrots
+ *  celery
+ *  lentils
+
+Boil some water.
+
+Dump everything in the pot and follow this algorithm:
+
+``````````
+find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+``````````
+
+Do not bump wooden spoon or it will fall.
+
+Notice again how text always lines up on 4-space indents (including that last line which continues item 3 above).
+
+Here's a link to a website, to a local doc, and to a [section heading in the current doc][]. Here's a footnote \[^1\].
+
+\[^1\]: Some footnote text.
+
+Tables can look like this:
+
+Name Size Material Color
 
 --------------------
 
-![tabs.svg][]
+All Business 9 leather brown Roundabout 10 hemp canvas natural Cinderella 11 glass transparent
 
-**asddasdfasdf**
+Table: Shoes sizes, materials, and colors.
 
-## title: "SMS\_DeploymentInfoFlat Class" titleSuffix: "Configuration Manager" ms.date: "09/20/2016" ms.prod: "configuration-manager" ms.technology: configmgr-sdk ms.topic: conceptual ms.assetid: 5bcdc5a5-1989-4c84-9df3-bdeb0c275eee author: aczechowski ms.author: aaroncz manager: dougeby ms.collection: M365-identity-device-management ##
+(The above is the caption for the table.) Pandoc also supports multi-line tables:
 
-# SMS\_DeploymentInfoFlat Server WMI Class #
+--------------------
 
-The `SMS_DeploymentInfoFlat` Windows Management Instrumentation (WMI) class is an SMS Provider server class, in Configuration Manager, that represents all kinds of flattened deployment relations (includes dependence and supersedence).
+Keyword Text
 
-The following syntax is simplified from Managed Object Format (MOF) code and includes all inherited properties.
+--------------------
 
-## Syntax ##
+red Sunsets, apples, and other red or reddish things.
 
-``````````
-Class SMS_DeploymentInfoFlat : SMS_BaseClass  
-{  
-    String CollectionID;  
-    String CollectionName;  
-    String DeploymentID;  
-    String DeploymentName;  
-    UInt32 DeploymentTypeID;  
-    String TargetName;  
-    UInt32 TargetSecurityTypeID;  
-    String TargetSubName;  
-};
-``````````
+green Leaves, grass, frogs and other things it's not easy being.
 
-## Methods ##
+--------------------
 
-The `SMS_DeploymentInfoFlat` class does not define any methods.
+A horizontal rule follows.
 
-## Properties ##
+--------------------
 
-`CollectionID`
-Data type: `String`
+Here's a definition list:
 
-Access type: Read/Write
+apples : Good for making applesauce.
 
-Qualifiers: none
+oranges : Citrus!
 
-Existing collection to which the advertisement is targeted.
+tomatoes : There's no "e" in tomatoe.
 
-`CollectionName`
-Data type: `String`
+Again, text is indented 4 spaces. (Put a blank line between each term and its definition to spread things out more.)
 
-Access type: Read/Write
+Here's a "line block" (note how whitespace is honored):
 
-Qualifiers: none
+| Line one | Line too | Line tree
 
-Name of the collection to which the advertisement is advertising.
+and images can be specified like so:
 
-`DeploymentID`
-Data type: `String`
+![example image][] I'm a relative reference to a repository file
 
-Access type: Read/Write
+![Cats.jpg][]
 
-Qualifiers: \[key\]
+**FROM TEXT COMPONENT**
 
-Unique auto-generated key.
+Inline math equation: $\\omega = d\\phi / dt$. Display math should get its own line like so:
 
-`DeploymentName`
-Data type: `String`
+$$I = \\int \\rho R^\{2\} dV$$
 
-Access type: Read/Write
-
-Qualifiers: none
-
-Plain text name of the deployment (advertisement/assignment).
-
-`DeploymentTypeID`
-Data type: `UInt32`
-
-Access type: Read/Write
-
-Qualifiers: \[enumeration, key\]
-
-Deployment type identifier.
-
-`TargetName`
-Data type: `String`
-
-Access type: Read/Write
-
-Qualifiers: none
-
-Package name, if the target is a package. Application name, if it is application. Update name, if it is update.
-
-`TargetSecurityTypeID`
-Data type: `UInt32`
-
-Access type: Read/Write
-
-Qualifiers: none
-
-Security type identifier of the object type. For example, if the object is a package, it is `2`.
-
-`TargetSubName`
-Data type: `String`
-
-Access type: Read/Write
-
-Qualifiers: none
-
-Program name if it is package, otherwise leave this value empty.
-
-## Remarks ##
-
-## Requirements ##
-
-## Runtime Requirements ##
-
-For more information, see [Configuration Manager Server Runtime Requirements][].
-
-## Development Requirements ##
-
-For more information, see [Configuration Manager Server Development Requirements][].
+And note that you can backslash-escape any punctuation characters which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
 
 
-[Previous]: /content/microsoft-learning/course-1/module-1/lesson-1/topic-4.html
-[Next]: /content/microsoft-learning/course-1/module-2/lesson-1/topic-4.html
-[tabs.svg]: /content/dam/core-components-examples/library/components/tabs.svg
-[Configuration Manager Server Runtime Requirements]: /content/dam/lessons/SCCMDocs/sccm/develop/core/reqs/server-runtime-requirements.md
-[Configuration Manager Server Development Requirements]: /content/dam/lessons/SCCMDocs/sccm/develop/core/reqs/server-development-requirements.md
+[section heading in the current doc]: /content/dam/lessons/azurepricollab/Azure-pri/#an-h2-header
+[example image]: /content/dam/lessons/azurepricollab/Azure-pri/funny-perfectly-timed-cat-photo-50__605.jpg
+[Cats.jpg]: /content/dam/lessons/azurepricollab/Azure-pri/Images/Cats.jpg
