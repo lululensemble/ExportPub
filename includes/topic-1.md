@@ -2,149 +2,45 @@ Topic 1
 
 Course 1 / Module 1 / Lesson 1 / Topic 1
 
-# An h1 header #
+[Next][]
 
-Paragraphs are separated by a blank line.
+![Multi-app_kiosk_inFrame.png][]
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists look like:
+asdfadsfas
 
- *  this one
- *  that one
- *  the other one
+# Introduction readme different versionasdfasdf asdf Variation 1 #
 
-Note that --- not considering the asterisk --- the actual text content starts at 4-columns in.
+TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
 
-Block quotes are written like so.
+# Getting Started #
 
-They can span multiple paragraphs, if you like.
+TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all in chapters 12--14"). Three dots ... will be converted to an ellipsis. Unicode is supported. ☺
+1.  Installation process
+2.  Software dependencies
+3.  Latest releases
+4.  API referencesasdfads
 
-## An h2 header ##
+# Build and Test #
 
-Here's a numbered list:
+TODO: Describe and show how to build your code and run the tests.
 
-1.  first item
-2.  second item
-3.  third item
+# Contribute #
 
-Note again how the actual text starts at 4 columns in (4 characters from the left side). Here's a code sample:
+TODO: Explain how other users and developers can contribute to make your code better.
 
-``````````
-# Let me re-iterate ...
-for i in 1 .. 10 { do-something(i) }
-``````````
+If you want to learn more about creating good readme files then refer the following [guidelines][]. You can also seek inspiration from the below readme files:
 
-As you probably guessed, indented 4 spaces. By the way, instead of indenting the block, you can use delimited blocks, if you like:
+ *  [ASP.NET Core][]
+ *  [Visual Studio Code][]
+ *  [Chakra Core][]
 
-``````````
-define foobar() {
-    print "Welcome to flavor country!";
-}
-``````````
-
-(which makes copying & pasting easier). You can optionally mark the delimited block for Pandoc to syntax highlight it:
-
-``````````
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print(i)
-``````````
-
-### An h3 header ###
-
-Now a nested list:
-
-1.  
-
-First, get these ingredients:
-
- *  carrots
- *  celery
- *  lentils
-
-Boil some water.
-
-Dump everything in the pot and follow this algorithm:
-
-``````````
-find wooden spoon
-uncover pot
-stir
-cover pot
-balance wooden spoon precariously on pot handle
-wait 10 minutes
-goto first step (or shut off burner when done)
-``````````
-
-Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including that last line which continues item 3 above).
-
-Here's a link to a website, to a local doc, and to a [section heading in the current doc][]. Here's a footnote \[^1\].
-
-\[^1\]: Some footnote text.
-
-Tables can look like this:
-
-Name Size Material Color
-
---------------------
-
-All Business 9 leather brown Roundabout 10 hemp canvas natural Cinderella 11 glass transparent
-
-Table: Shoes sizes, materials, and colors.
-
-(The above is the caption for the table.) Pandoc also supports multi-line tables:
-
---------------------
-
-Keyword Text
-
---------------------
-
-red Sunsets, apples, and other red or reddish things.
-
-green Leaves, grass, frogs and other things it's not easy being.
-
---------------------
-
-A horizontal rule follows.
-
---------------------
-
-Here's a definition list:
-
-apples : Good for making applesauce.
-
-oranges : Citrus!
-
-tomatoes : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Put a blank line between each term and its definition to spread things out more.)
-
-Here's a "line block" (note how whitespace is honored):
-
-| Line one | Line too | Line tree
-
-and images can be specified like so:
-
-![example image][] I'm a relative reference to a repository file
-
-![Cats.jpg][]
-
-**FROM TEXT COMPONENT**
-
-Inline math equation: $\\omega = d\\phi / dt$. Display math should get its own line like so:
-
-$$I = \\int \\rho R^\{2\} dV$$
-
-And note that you can backslash-escape any punctuation characters which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
+zzxcvzxcvxcvc
 
 
-[section heading in the current doc]: /content/dam/lessons/azurepricollab/Azure-pri/#an-h2-header
-[example image]: /content/dam/lessons/azurepricollab/Azure-pri/funny-perfectly-timed-cat-photo-50__605.jpg
-[Cats.jpg]: /content/dam/lessons/azurepricollab/Azure-pri/Images/Cats.jpg
+[Next]: /content/microsoft-learning/course-1/module-2/lesson-1/topic-1.html
+[Multi-app_kiosk_inFrame.png]: /content/dam/lessons/windows-itpro-docs/windows/whats-new/images/Multi-app_kiosk_inFrame.png
+[guidelines]: https://www.visualstudio.com/en-us/docs/git/create-a-readme
+[ASP.NET Core]: https://github.com/aspnet/Home
+[Visual Studio Code]: https://github.com/Microsoft/vscode
+[Chakra Core]: https://github.com/Microsoft/ChakraCore
